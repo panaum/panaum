@@ -181,14 +181,7 @@ CGPA 7.74 / 10
 
 ---
 
-## Certifications
 
-- **Evaluating & Debugging Generative AI** — DeepLearning.AI
-- **LLM Evaluation with Ragas & DeepEval** — DataTalks.Club
-- **Python for Test Automation** — Test Automation University, Applitools
-- **Prompt Engineering for Developers** — DeepLearning.AI
-
----
 
 ## Currently learning
 
