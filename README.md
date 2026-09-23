@@ -88,6 +88,8 @@ Beyond link checking it catches dead CTAs separated from JavaScript UI that mere
 
 - **Ads waste guard and inbound-404 triage.** Import a Google Ads final-URL export and every destination is verified daily; a live ad pointing at a provably dead page alerts immediately. Spend at risk is computed only from your own imported cost figures and always labelled. Search Console errors and server logs re-rank dead URLs by measured demand, with bot demand never counted as a real visitor.
 
+- **pagecheck — published on PyPI.** The single-page checker is open source and installable by anyone: `pip install pagecheck`. Point it at a URL and get a pre-launch verdict, no account and no key. It is read-only — it loads the page with test attribution parameters attached and reads the forms back, and never submits one. [→ PyPI](https://pypi.org/project/pagecheck/) · [→ Repository](https://github.com/panaum/pagecheck)
+
 - **Third-party watchdog.** Inventories external hosts across every client, and when a shared host fails across sites it raises one alert naming everyone affected rather than eight separate mysteries. The failure is demoted *before* the diff and the health score, so a dead Calendly never reddens a client's report while the outage is still reported where it belongs.
 
 Everywhere: **what can't be proven broken is reported as unverifiable, never red.** For a client-facing tool a false alarm costs more than a soft warning.
